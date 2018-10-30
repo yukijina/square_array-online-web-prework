@@ -6,3 +6,9 @@ def square_array(array)
   end
    return squared
 end
+
+def square_advanced(array)
+  array.collect |number|
+    return number ** 2  
+  end
+end

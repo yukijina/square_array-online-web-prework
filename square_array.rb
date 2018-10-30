@@ -7,6 +7,7 @@ def square_array(array)
    return squared
 end
 
+#advanced
 def square_advanced(array)
   array.collect do |number|
      number ** 2  

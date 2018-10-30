@@ -8,7 +8,7 @@ def square_array(array)
 end
 
 def square_advanced(array)
-  array.collect |number|
+  array.collect do |number|
      number ** 2  
   end
 end

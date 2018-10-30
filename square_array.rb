@@ -9,6 +9,6 @@ end
 
 def square_advanced(array)
   array.collect |number|
-    return number ** 2  
+     number ** 2  
   end
 end
